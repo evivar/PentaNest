@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="500.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Competición">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Nueva competición" />
+                  <MenuItem mnemonicParsing="false" text="Salir" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Clasificación por pruebas">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Natación" />
+                  <MenuItem mnemonicParsing="false" text="Esgrima" />
+                  <MenuItem mnemonicParsing="false" text="Equitación" />
+                  <MenuItem mnemonicParsing="false" text="Laser-Run" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Clasificaciones parciales">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Parcial después de natación" />
+                  <MenuItem mnemonicParsing="false" text="Parcial después de esgrima" />
+                  <MenuItem mnemonicParsing="false" text="Parcial después de equitación" />
+                  <MenuItem mnemonicParsing="false" text="Clasificación final" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Reglamento">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Añadior mierdas a reglas y pags concretas" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <VBox alignment="CENTER" prefHeight="475.0" prefWidth="172.0" spacing="30.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="44.0" prefWidth="125.0" text="Participantes" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/images/icons8-running-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="44.0" prefWidth="125.0" text="Natación" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/images/icons8-swimming-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="44.0" prefWidth="125.0" text="Esgrima" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/images/icons8-fencing-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="44.0" prefWidth="125.0" text="Equitación" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/images/icons8-equestrian-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="44.0" prefWidth="125.0" text="Laser-Run" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/images/icons8-exercise-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
